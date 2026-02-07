@@ -1,0 +1,134 @@
+.choice-form__heading {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 27px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    color: #090909;
+}
+
+.choice-form__button-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.choice-form__button-close {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    background-color: transparent;
+    outline: none;
+}
+
+.choice-form__button-close:hover .choice-form__button-text {
+    color: #AD8361;
+}
+
+.choice-form__button-close:focus-visible .choice-form__button-text {
+    color: #AD8361;
+}
+
+.choice-form__icon {
+    color: #090909;
+}
+
+.choice-form__button-close:hover .choice-form__icon {
+    color: #AD8361;
+}
+
+.choice-form__button-close:focus-visible .choice-form__icon {
+    color: #AD8361;
+}
+
+.choice-form__group {
+    border: none;
+    padding: 0;
+    margin: 0 0 24px;
+    position: relative;
+}
+
+.choice-form__group-name {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    padding: 0;
+    margin: 0 0 16px;
+}
+
+.choice-form__inner {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-top: 1px solid #AD8361;
+    border-left: 1px solid #AD8361;
+}
+
+.choice-form__inner--big {
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 21px;
+}
+
+.choice-form__inner--flat {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.choice-form__inner--medium {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.choice-form__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+
+.choice-form__btn {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #AD8361;
+    border-radius: 60px;
+    padding: 12px;
+    height: 38px;
+}
+
+.choice-form__btn:hover {
+    background-color: #AD8361;
+}
+
+.choice-form__btn:focus-visible {
+    background-color: #AD8361;
+    outline: none;
+}
+
+.choice-form__btn[disabled] {
+    background-color: rgba(243, 243, 243, 0.5);
+    border-color: rgba(173, 131, 97, 0.5);
+}
+
+.choice-form__btn-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    color: #AD8361;
+    display: block;
+    margin: 0 auto;
+}
+
+.choice-form__btn:hover .choice-form__btn-text {
+    color: #FFFFFF;
+}
+
+.choice-form__btn:focus-visible .choice-form__btn-text {
+    color: #FFFFFF;
+}
+
+.choice-form__btn[disabled] .choice-form__btn-text {
+    color: rgba(173, 131, 97, 0.5);
+}

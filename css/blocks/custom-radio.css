@@ -1,0 +1,114 @@
+.custom-radio--big {
+    grid-column: span 2;
+}
+
+.custom-radio__label {
+    background-color: transparent;
+    display: block;
+    width: 100%;
+    padding: 4px;
+    cursor: pointer;
+    border-right: 1px solid #AD8361;
+    border-bottom: 1px solid #AD8361;
+}
+
+.custom-radio__field:checked+.custom-radio__label {
+    background-color: #AD8361;
+}
+
+.custom-radio__field:focus-visible+.custom-radio__label {
+    background-color: #EFEDE7;
+}
+
+.custom-radio__field[disabled]+.custom-radio__label {
+    background-color: rgba(243, 243, 243, 0.5);
+    border-right-color: rgba(173, 131, 97, 0.5);
+    border-bottom-color: rgba(173, 131, 97, 0.5);
+}
+
+.custom-radio__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #AD8361;
+    display: block;
+    margin: 0 auto;
+}
+
+.custom-radio__field:checked+.custom-radio__label .custom-radio__text {
+    color: #FFFFFF;
+}
+
+.custom-radio__field:hover+.custom-radio__label .custom-radio__text {
+    color: #090909;
+}
+
+.custom-radio__field:focus-visible+.custom-radio__label .custom-radio__text {
+    color: #AD8361;
+}
+
+.custom-radio__field[disabled]+.custom-radio__label .custom-radio__text {
+    color: rgba(173, 131, 97, 0.5);
+}
+
+.custom-radio__btn {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2);
+    width: 156px;
+    padding: 11px;
+    position: absolute;
+    top: -12px;
+    left: calc(100% + 27px);
+    z-index: 2;
+    outline: none;
+    display: none;
+}
+
+.custom-radio__btn--active {
+    display: block;
+}
+
+.custom-radio__btn:hover {
+    background-color: #AD8361;
+}
+
+.custom-radio__btn:focus-visible {
+    background-color: #AD8361;
+}
+
+.custom-radio__btn-icon {
+    width: 8px;
+    height: 14px;
+    color: #FFFFFF;
+    position: absolute;
+    left: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.custom-radio__btn:hover .custom-radio__btn-icon {
+    color: #AD8361;
+}
+
+.custom-radio__btn:focus-visible .custom-radio__btn-icon {
+    color: #AD8361;
+}
+
+.custom-radio__btn-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    color: #AD8361;
+}
+
+.custom-radio__btn:hover .custom-radio__btn-text {
+    color: #FFFFFF;
+}
+
+.custom-radio__btn:focus-visible .custom-radio__btn-text {
+    color: #FFFFFF;
+}
