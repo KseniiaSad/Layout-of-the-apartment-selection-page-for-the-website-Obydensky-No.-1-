@@ -27,9 +27,11 @@ A desktop-optimized interface for filtering premium apartments, built with seman
 - **Interface designed for real estate professionals** who work on large screens  
 
 ## 📁 Project Structure  
-real-estate-filter/
+Layout-of-the-apartment-selection-page-for-the-website-Obydensky-No.-1-/
 ├── index.html
-├── style.css
+├── css/
+│ └── style.css
+├── fonts/
 ├── images/
 │ └── preview.png
 └── README.md
