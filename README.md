@@ -30,9 +30,12 @@ A desktop-optimized interface for filtering premium apartments, built with seman
 Layout-of-the-apartment-selection-page-for-the-website-Obydensky-No.-1-/
 ├── index.html
 ├── css/
-│ └── style.css
+│ └── blocks/
+│ └── global/
 ├── fonts/
 ├── images/
+│ └── sprite/
+│ └── sprite.svg
 │ └── preview.png
 └── README.md
 
